@@ -1,7 +1,7 @@
 import telebot
 from datetime import datetime
 from dotenv import load_dotenv
-
+import os
 # Load các biến môi trường từ tệp .env
 load_dotenv()
 # Replace 'YOUR_API_TOKEN' with the API token you received from the BotFather
