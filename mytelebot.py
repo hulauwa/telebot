@@ -15,7 +15,7 @@ def get_current_date():
     day = now.day
     month = now.month
     year = now.year
-    return f"Today's date is {day}/{month}/{year}."
+    return f"Hôm nay là {day}/{month}/{year}."
 
 # Define a command handler for /start
 @bot.message_handler(commands=['start', 'help'])
